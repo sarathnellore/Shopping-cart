@@ -18,7 +18,7 @@ public class ComposeDao {
 			ps.setDate(6,Formatter.getCurrentDate());
 			
 			status=ps.executeUpdate();
-						
+						//adding comments
 		}catch(Exception e){System.out.println(e);}
 				
 		return status;
